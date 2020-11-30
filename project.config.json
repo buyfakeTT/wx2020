@@ -1,0 +1,94 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.14.0",
+  "appid": "wxf92b359b458de6e1",
+  "projectname": "weixin",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "pages/posts/posts",
+          "pathName": "pages/posts/posts",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/post-dedail/post-dedail",
+          "pathName": "pages/post-dedail/post-dedail",
+          "query": "pid=0",
+          "scene": null
+        },
+        {
+          "name": "pages/movies/movies",
+          "pathName": "pages/movies/movies",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/more-movie/more-movie",
+          "pathName": "pages/more-movie/more-movie",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/movie-dedail/movie-dedail",
+          "pathName": "pages/movie-dedail/movie-dedail",
+          "query": "mid=305",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

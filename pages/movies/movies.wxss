@@ -1,0 +1,24 @@
+.movie-list{
+  margin-bottom: 30rpx;
+  /* background-color: green !important; */
+}
+.ss{
+  height: 100rpx !important;
+}
+.ssjg{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30rpx 28rpx;
+  justify-content: space-between;
+}
+.movie{
+  margin-bottom: 30rpx;
+}
+.search-container::after{
+  content:'';
+  width:200rpx;
+}
+page{
+  background-color: #f2f2f2;
+}

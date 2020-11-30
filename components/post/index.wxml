@@ -1,0 +1,20 @@
+
+<view data-post-id="{{res.postId}}" bind:tap="onTap" class="kj">
+  <view class="h1">
+  <image src="{{res.avatar}}" class="tx"></image>
+  <text class="date"> {{res.date}} </text>
+</view>
+
+  <text class="title">{{res.title}}</text>
+
+  <image class="tp" src="{{res.imgSrc}}"></image>
+
+  <text class="wz">{{res.content}}</text>
+
+  <view class="like">
+  <l-icon size="28" class="tp" name="favor" color="#666"/>
+  <text class="sj">{{res.reading}}</text>
+  <l-icon size="32" class="tp" name="eye" color="#666"/>
+  <text class="sj">{{res.collection}}</text>
+</view>
+</view>

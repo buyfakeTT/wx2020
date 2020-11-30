@@ -1,0 +1,19 @@
+.da{
+  padding: 36rpx 36rpx;
+  background-color: #fff;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 28rpx;
+}
+.movie{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text{
+  color: #1f4ba5;
+}

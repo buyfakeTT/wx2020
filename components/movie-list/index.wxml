@@ -1,0 +1,11 @@
+<view class="da f-class">
+  <view class="title">
+    <text>{{title}}</text>
+    <text class="text">更多 ></text>
+  </view>
+  <view class="movie">
+  <block wx:for="{{movies}}" wx:key="index">
+    <movie movie="{{item}}" />
+  </block>
+</view>
+</view>
